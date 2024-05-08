@@ -264,7 +264,7 @@ public class SmartAI extends BattleshipAI {
             hitShips.add(testCoords);
             // Перевірте, чи це було останнє місце, куди влучили на кораблі
             List<Coordinates> allPositionsOfLastShip = mark.getShip().getNumberOfOccupiedCoordinates();
-            if(debugAI) printPositionList("Остання палуба", allPositionsOfLastShip);
+            if(debugAI) printPositionList("Останній корабель", allPositionsOfLastShip);
             boolean hitAllOfShip = containsAllPositions(allPositionsOfLastShip, hitShips);
             // Якщо так, видалити дані корабля
             if(hitAllOfShip) {
