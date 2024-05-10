@@ -14,7 +14,6 @@ import java.awt.event.MouseMotionListener;
  * Керує двома сітками, однією для гравця, а іншою для комп’ютера, за допомогою
  * панелі стану між ними. Залежно від стану гри гравець може
  * розмістити кораблі на своїй сітці або атакувати сітку комп'ютера.
- * Поточний стан відображається на панелі.
  */
 public class GameController extends JPanel implements MouseListener, MouseMotionListener {
     /**
@@ -184,8 +183,7 @@ public class GameController extends JPanel implements MouseListener, MouseMotion
 
     /**
      * Спроби обстрілу позиції на сітці комп'ютера.
-     * Гравець отримує сповіщення, якщо влучив/промахнувся.
-     * Після черги гравця, AI отримує хід, якщо гра ще не закінчена.
+     * Після черги гравця, ШІ отримує хід, якщо гра ще не закінчена.
      *
      * @param mousePosition Координати миші всередині панелі.
      */

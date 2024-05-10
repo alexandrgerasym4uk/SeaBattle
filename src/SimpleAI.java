@@ -19,7 +19,7 @@ public class SimpleAI extends BattleshipAI{
     }
 
     /**
-     * Скидання AI шляхом скидання батьківського класу.
+     * Скидання ШІ шляхом скидання батьківського класу.
      */
     @Override
     public void reset() {

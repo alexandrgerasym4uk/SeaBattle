@@ -11,7 +11,7 @@ import java.awt.event.KeyListener;
  */
 public class Game implements KeyListener {
     /**
-     * Точка входу для програми для створення екземпляра класу Game.
+     * Точка входу для програми, створення екземпляра класу Game.
      *
      * @param args Не використовується.
      */
